@@ -19,7 +19,7 @@ import {cropPicture} from '../../helpers/image-helper';
 import {Camera} from 'expo-camera';
 
 const RESULT_MAPPING = ['Gato', 'Perro'];
-
+//repositorio https://github.com/ajdinahmetovic/ShapeRecognition-App
 const Main = () => {
   const cameraRef = useRef();
   const [isProcessing, setIsProcessing] = useState(false);
